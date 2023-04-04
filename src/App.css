@@ -1,38 +1,94 @@
-.App {
+body {
+  background-image: linear-gradient(to right, #dd5e89, #f7bb97);
+}
+
+.container {
+  background-color: white;
+  justify-content: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 6%;
+  margin-bottom: 5%;
+  text-align: center;
+  border-radius: 12px;
+  border: 1px dashed green;
+}
+
+.back {
+  background-image: linear-gradient(to right, #087fe0, #c42f9a);
+  margin-left: 35%;
+}
+
+input[type="text"],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid wheat;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+input[type="number"],
+select {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid wheat;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 30%;
+  background-color: rgb(36, 203, 36);
+  color: rgb(6, 5, 5);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  font-family: cursive;
+  border: 1px solid rgb(0, 200, 255);
+}
+
+.header {
+  width: 100%;
+  background-image: linear-gradient(to right, lightpink, lightblue);
+  color: darkmagenta;
+  font-family: cursive;
+}
+
+.ui-define {
+  background-color: azure;
+  position: relative;
+  margin-left: 19.5%;
+  width: 60%;
+  margin-top: 5%;
+  text-align: center;
+  border: 2px dashed rgb(0, 255, 128);
+  border-radius: 9px;
+}
+h4 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.flag {
+  background: linear-gradient(
+      217deg,
+      rgba(255, 0, 0, 0.8),
+      rgba(255, 0, 0, 0) 70.71%
+    ),
+    linear-gradient(127deg, rgba(0, 255, 0, 0.8), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0, 0, 255, 0) 70.71%);
+  width: 90%;
+  margin-left: 5%;
+  border: 1px dashed fuchsia;
+  border-radius: 4px;
 }
